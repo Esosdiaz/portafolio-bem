@@ -45,6 +45,7 @@ ul{
 }
 .logo{
 	padding: 100px;
+	padding-bottom:0;
 }
 .text{
 	padding: 70px;
@@ -73,4 +74,42 @@ ul{
 	padding-right: 40px;
 	padding-top: 15px;
 	padding-bottom: 15px;
+}
+.sociales{
+	background-color: $azulCuerpo;
+	padding-top: 20px;
+	padding-bottom:100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.sociales__boton{
+	width: 60px;
+	height: 60px;
+	border: none;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.sociales__boton--facebook{
+	background-color: $facebook;
+}
+.sociales__boton--twitter{
+	background-color: $twitter;
+}
+.sociales__boton--google{
+	background-color: $google;
+}
+.sociales__boton--dribble{
+	background-color: $dribble;
+}
+.sociales__boton--linkedin{
+	background-color: $linkedin;
+}
+
+
+.fa{
+	color: $blanco;
+	-webkit-box-shadow: 9px 10px 20px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 10px 20px -2px rgba(0,0,0,0.75);
+    box-shadow: 9px 10px 20px -2px rgba(0,0,0,0.75)
 }
