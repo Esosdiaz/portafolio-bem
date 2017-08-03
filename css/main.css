@@ -84,11 +84,13 @@ ul {
   justify-content: center; }
 
 .sociales__boton {
-  width: 60px;
-  height: 60px;
+  width: 65px;
+  height: 65px;
   border: none;
   margin-left: 15px;
-  margin-right: 15px; }
+  margin-right: 15px;
+  border-radius: 5px;
+  cursor: pointer; }
 
 .sociales__boton--facebook {
   background-color: #2E4DA7; }
@@ -105,19 +107,21 @@ ul {
 .sociales__boton--linkedin {
   background-color: #006699; }
 
-.fa {
+.sociales__fa {
   color: #fff;
   -webkit-box-shadow: 9px 10px 20px -2px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 9px 10px 20px -2px rgba(0, 0, 0, 0.75);
   box-shadow: 9px 10px 20px -2px rgba(0, 0, 0, 0.75); }
 
-.third {
+.fourth {
   background-color: #EFEFEF;
-  padding: 100px;
   color: #203748;
-  font-size: 20px; }
+  font-size: 20px;
+  padding-bottom: 100px; }
 
-.third__titulo {
+.fourth__titulo {
+  margin: 0px;
+  padding-top: 100px;
   padding-bottom: 40px; }
 
 .trabajos {
